@@ -31,11 +31,11 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Robot Address Book with React.js',
+    info: `An address book that generates random portraits for each entry using an API.`,
+    info2: 'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
+    url: 'https://fortheonesthere.github.io/robotfriends/',
+    repo: 'https://github.com/ForTheOnesThere/robotfriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
