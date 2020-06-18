@@ -59,9 +59,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Want to work together? Awesome!',
   btn: '',
-  email: '',
+  email: 'jamescockayne1@gmail.com',
 };
 
 // FOOTER DATA
@@ -69,23 +69,23 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/jamescockayne/',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/fortheonesthere',
     },
     {
       id: uuidv1(),
-      name: 'linkedin',
-      url: '',
+      name: 'reddit',
+      url: 'https://www.reddit.com/user/ForTheOnesThere',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ForTheOnesThere',
     },
   ],
 };
