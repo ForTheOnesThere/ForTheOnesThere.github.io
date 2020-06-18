@@ -99,6 +99,12 @@ export const footerData = {
   ],
 };
 
+//GITHUB CARD DATA
+export const githubCardData = {
+  text: 'This is the text section.',
+  avatarUrl: 'www.yay.com',
+};
+
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
