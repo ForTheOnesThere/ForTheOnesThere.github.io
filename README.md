@@ -1,2 +1,2 @@
 # fortheonesthere.github.io
-Person Website
+Personal Website
