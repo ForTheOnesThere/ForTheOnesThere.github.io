@@ -30,7 +30,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px solid transparent;
+  -webkit-border: 2px solid transparent;
   border-image: linear-gradient(
     135deg,
     $primary-color 0%,
