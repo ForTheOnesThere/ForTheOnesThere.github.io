@@ -2,25 +2,27 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'James Cockayne | Developer and Engeineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'James Cockayne, developer.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: `Hi, I'm`,
+  name: 'James Cockayne, MEng',
+  subtitle: 'Please Hire me.',
+  cta: 'Meet me...',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile.png',
+  paragraphOne: `My name is James, and I am a software developer and aerospace engineer from the UK.
+  In 2020, I graduated from the University of Nottingham with a master's degree in Aerospace Engineering (MEng).`,
+  paragraphTwo: `At university, I also learned web development. As a qualified engineer that's not from a traditional software background,
+                I am uniquely placed to solve a huge range of problems. `,
+  paragraphThree: `A selection of my skills and projects can be seen below. Please get in touch, I'd love to work together!`,
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -90,5 +92,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
