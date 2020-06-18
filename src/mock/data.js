@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'robotSearch.png',
     title: 'Robot Address Book with React.js',
     info: `An address book that generates random portraits for each entry using an API.`,
     info2: 'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
@@ -40,20 +40,29 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Coronavirus Tracker with WebGL Globe and a COVID-19 API',
+    info: 'This project is yet to be built.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Machine Learning Facial Recognition',
+    info: 'This project is yet to be built.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'logo.png',
+    title: 'My Github Account',
+    info: 'More of my work can be found on my Github page. The link to this and my other social media can be found in the footer below.',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
