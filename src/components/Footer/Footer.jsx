@@ -11,7 +11,7 @@ const Footer = () => {
   const { isEnabled } = githubButtons;
 
   return (
-    <section id='footer'>
+    <section id='footer' style={{padding:'0px 0px'}}>
     <footer className="footer navbar-static-bottom">
       <Container>
         <a href="#top" aria-label="Back To Top" className="back-to-top">
