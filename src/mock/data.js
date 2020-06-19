@@ -55,15 +55,6 @@ export const projectsData = [
     url: '',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: uuidv1(),
-    img: 'logo.png',
-    title: 'My Github Account',
-    info: 'More of my work can be found on my Github page. The link to this and my other social media can be found in the footer below.',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
