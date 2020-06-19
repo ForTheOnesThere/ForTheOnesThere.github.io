@@ -4,7 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import GithubCard from './GithubCard';
+import GithubCard from './GithubCard/GithubCard';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -33,8 +33,8 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Contact />
       <GithubCard data={githubcarddata}/>
+      <Contact />
       <Footer />
     </PortfolioProvider>
   );

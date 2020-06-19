@@ -99,9 +99,10 @@ export const footerData = {
   ],
 };
 
+
 //GITHUB CARD DATA
 export const githubCardData = {
-  text: 'This is the text section.',
+  text: `This is just a selection of projects I have worked on. To view all of my work to date, check out my GitHub profile in the list of social media links below, along with some of my other online profiles.`,
   avatarUrl: 'www.yay.com',
 };
 

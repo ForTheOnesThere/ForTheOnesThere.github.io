@@ -1,0 +1,43 @@
+@import '../abstracts/_variables.scss';
+
+.gh {
+  padding: 150px;
+  padding-top: 0px;
+}
+
+
+
+.img {
+  max-width: 50px;
+  width: 100%;
+}
+
+.gh-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gh-span-pic {
+  background-color: red;
+  width: 55%;
+  padding: 0px 20px
+}
+
+.gh-span {
+  background-color: red;
+  width: 40%;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 1.8rem;
+  font-size: 2.5rem;
+
+}
+
+.gh-su {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
