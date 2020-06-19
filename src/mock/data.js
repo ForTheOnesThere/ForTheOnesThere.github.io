@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'James Cockayne | Developer and Engeineer', // e.g: 'Name | Developer'
+  title: 'James Cockayne | Developer and Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'James Cockayne, developer.', // e.g: Welcome to my website
 };
