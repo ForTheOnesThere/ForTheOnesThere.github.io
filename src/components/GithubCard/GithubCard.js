@@ -19,31 +19,35 @@ const GithubCard = ({ data }) => {
       <Fade bottom>
 
       <div className='gh-container'>
-<div className='wrap'>
-        <span className='gh-span-pic'>
+
+{/* I need to clean this up and then eliminate styles that aren't needed */}
+<div id='gh-su'>
           <img src={require('../../images/logo.png')} alt='Github Logo' className='img'/>
-        </span>
-        </div>
-<div className='wrap'>
-        <span className='gh-span gh-su'>
-          <div id='gh-su'>
-            <h1 className='pa1 heading'>Online Presence</h1>
+
+
+
+
+
+            <h1 className='pa1 title'>Online Presence</h1>
             <p>{text}</p>
             <br/>
               <br/>
+
+
             <ScrollIntoView selector="#footer">
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--hero"
-
-            >
+              >
               Take A Look
             </a>
           </ScrollIntoView>
+
+
           </div>
-        </span>
-        </div>
+
+
 
       </div>
 
