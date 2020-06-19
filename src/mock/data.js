@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'James Cockayne | Developer and Engeineer', // e.g: 'Name | Developer'
+  title: 'James Cockayne | Developer and Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'James Cockayne, developer.', // e.g: Welcome to my website
 };
@@ -97,6 +97,13 @@ export const footerData = {
       url: 'https://github.com/ForTheOnesThere',
     },
   ],
+};
+
+
+//GITHUB CARD DATA
+export const githubCardData = {
+  text: `This is just a selection of projects I have worked on. To view all of my work to date, check out my GitHub profile in the list of social media links below, along with some of my other online profiles.`,
+  avatarUrl: 'www.yay.com',
 };
 
 // Github start/fork buttons
