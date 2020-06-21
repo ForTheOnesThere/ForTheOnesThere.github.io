@@ -39,6 +39,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'spaceXpedia.png',
+    title: 'SpaceXpedia with React.js',
+    info: 'A fully interactive and responsive web application for rocket fans. It features a live launch countdown and an interface to access any information you would ever need to know about SpaceX missions.',
+    info2: '',
+    url: 'https://fortheonesthere.github.io/spaceXpedia',
+    repo: 'https://github.com/ForTheOnesThere/spaceXpedia', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'project.jpg',
     title: 'Coronavirus Tracker with WebGL Globe and a COVID-19 API',
     info: 'This project is yet to be built.',
