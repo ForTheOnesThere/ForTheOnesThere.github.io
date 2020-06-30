@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: `At university, I also learned web development. As a qualified engineer that's not from a traditional software background,
                 I am uniquely placed to solve a huge range of problems. `,
   paragraphThree: `A selection of my skills and projects can be seen below. Please get in touch, I'd love to work together!`,
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: null,//'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
