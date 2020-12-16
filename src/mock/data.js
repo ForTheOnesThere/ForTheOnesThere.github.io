@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: `At university, I also learned web development. As a qualified engineer that's not from a traditional software background,
                 I am uniquely placed to solve a huge range of problems. `,
   paragraphThree: `A selection of my skills and projects can be seen below. Please get in touch, I'd love to work together!`,
-  resume: null,//'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: null, // 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,7 +33,8 @@ export const projectsData = [
     img: 'robotSearch.png',
     title: 'Robot Address Book with React.js',
     info: `An address book that generates random portraits for each entry using an API.`,
-    info2: 'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
+    info2:
+      'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
     url: 'https://fortheonesthere.github.io/robotfriends/',
     repo: 'https://github.com/ForTheOnesThere/robotfriends', // if no repo, the button will not show up
   },
@@ -41,7 +42,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'spaceXpedia.png',
     title: 'SpaceXpedia with React.js',
-    info: 'A fully interactive and responsive web application for rocket fans. It features a live launch countdown and an interface to access any information you would ever need to know about SpaceX missions.',
+    info:
+      'A fully interactive and responsive web application for rocket fans. It features a live launch countdown and an interface to access any information you would ever need to know about SpaceX missions.',
     info2: '',
     url: 'https://fortheonesthere.github.io/spaceXpedia',
     repo: 'https://github.com/ForTheOnesThere/spaceXpedia', // if no repo, the button will not show up
@@ -49,21 +51,21 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
+    title: 'Machine Learning Facial Recognition',
+    info: 'This project is under active development.',
+    info2: 'Coming January 2021',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  /* {{
+    id: uuidv1(),
+    img: 'project.jpg',
     title: 'Coronavirus Tracker with WebGL Globe and a COVID-19 API',
     info: 'This project is yet to be built.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Machine Learning Facial Recognition',
-    info: 'This project is yet to be built.',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
+  }, } */
 ];
 
 // CONTACT DATA
@@ -99,8 +101,7 @@ export const footerData = {
   ],
 };
 
-
-//GITHUB CARD DATA
+// GITHUB CARD DATA
 export const githubCardData = {
   text: `This is just a selection of projects I have worked on. To view all of my work to date, check out my GitHub profile in the list of social media links below, along with some of my other online profiles.`,
   avatarUrl: 'www.yay.com',
