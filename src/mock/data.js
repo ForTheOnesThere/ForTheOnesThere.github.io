@@ -30,13 +30,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'robotSearch.png',
-    title: 'Robot Address Book with React.js',
-    info: `An address book that generates random portraits for each entry using an API.`,
+    img: 'faceDetect.png',
+    title: 'Face Detection App',
+    info:
+      "This web app detects the presence of faces in pictures, and can highlight them graphically to the user. It uses React for the front end, Express for the backend, and PostgreSQL for the database. To give it a try, use the credentials 'test@test.com', 'test'",
     info2:
-      'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
-    url: 'https://fortheonesthere.github.io/robotfriends/',
-    repo: 'https://github.com/ForTheOnesThere/robotfriends', // if no repo, the button will not show up
+      "It features signing in/out through the database, and keeps track of a user's number of entries. Check out the front and back ends on GitHub!",
+    url: 'https://fortheonesthere.github.io/facial-recognition-app',
+    repo: 'https://github.com/ForTheOnesThere/facial-recognition-app', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -50,13 +51,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Machine Learning Facial Recognition',
-    info: 'This project is under active development.',
-    info2: 'Coming January 2021',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    img: 'robotSearch.png',
+    title: 'Robot Address Book with React.js',
+    info: `An address book that generates random portraits for each entry using an API.`,
+    info2:
+      'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
+    url: 'https://fortheonesthere.github.io/robotfriends/',
+    repo: 'https://github.com/ForTheOnesThere/robotfriends', // if no repo, the button will not show up
   },
+
   /* {{
     id: uuidv1(),
     img: 'project.jpg',
