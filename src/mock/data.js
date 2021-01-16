@@ -19,15 +19,25 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: `My name is James, and I am a software developer and aerospace engineer from the UK.
-  In 2020, I graduated from the University of Nottingham with a master's degree in Aerospace Engineering (MEng).`,
+  In 2020, I graduated with first class honours from the University of Nottingham, with a master's degree in Aerospace Engineering (MEng).`,
   paragraphTwo: `At university, I also learned web development. As a qualified engineer that's not from a traditional software background,
                 I am uniquely placed to solve a huge range of problems. `,
   paragraphThree: `A selection of my skills and projects can be seen below. Please get in touch, I'd love to work together!`,
-  resume: null, // 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: null, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'spotify-app.png',
+    title: 'Spotify Visualised',
+    info: `This web app was made with React, and signs the user in to Spotify using OAuth 2.0 and displays all of the song data that Spotify doesn't let you see ordinarily.`,
+    info2:
+      "It's responsive, fluid, and fast. The user is shown their library, and clicking on an album, then a track, will display the unique characteristics of that song. How 'danceable' is your favourite song? How much 'speechiness' does it contain? Find out! (First sign-in takes a while due to my backend situation but second time onwards is representative of real-world speed.)",
+    url: 'https://fortheonesthere.github.io/spotify-app',
+    repo: 'https://github.com/ForTheOnesThere/spotify-app', // if no repo, the button will not show up
+  },
   {
     id: uuidv1(),
     img: 'faceDetect.png',
@@ -42,22 +52,12 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'spaceXpedia.png',
-    title: 'SpaceXpedia with React.js',
+    title: 'SpaceXpedia',
     info:
-      'A fully interactive and responsive web application for rocket fans. It features a live launch countdown and an interface to access any information you would ever need to know about SpaceX missions.',
+      'A fully interactive and responsive web application for rocket fans. It features a live launch countdown and an interface to access any past mission information you would ever need to know.',
     info2: '',
     url: 'https://fortheonesthere.github.io/spaceXpedia',
     repo: 'https://github.com/ForTheOnesThere/spaceXpedia', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'robotSearch.png',
-    title: 'Robot Address Book with React.js',
-    info: `An address book that generates random portraits for each entry using an API.`,
-    info2:
-      'This simple web app is built with React.js. It has a dynamic search function to filter contacts, and is clean and responsive.',
-    url: 'https://fortheonesthere.github.io/robotfriends/',
-    repo: 'https://github.com/ForTheOnesThere/robotfriends', // if no repo, the button will not show up
   },
 
   /* {{
